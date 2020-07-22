@@ -12,6 +12,13 @@
 
 <!-- MAIN CSS -->
 <link rel="stylesheet" href="css/templatemo-style.css">
+<style>
+	input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+</style>
 </head>
 
 <body>
@@ -23,12 +30,21 @@
 	
 	<div class = "login">
 		<section>
-			<h2 style="font-size:20px;" text align = "left"> Email </h2>
-			<hr>
-			<h2 style="font-size:20px;" text align = "left"> Password </h2>
-			<hr>
-			<br>
-			<br>
+			<center>
+				<div>
+					<input type="text" id="cf-name" name="name" placeholder="Username" >
+				</div>
+				<br>
+				<br>
+
+					<div>
+					<input type="text" id="cf-password" name="password" placeholder="Password">
+				</div>
+
+				<br>
+				<br>
+				<button type="submit" id="cf-submit" name="submit">Login</button>
+			</center>
 		</section>
 		<div class = "toRegister" text align = "center">
 		<h3 style="font-size:20px;"> Don't Have an Account? </h3>
