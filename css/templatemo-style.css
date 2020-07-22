@@ -403,19 +403,19 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .slider .item-first {
-    background-image: url(../images/slider-image1.jpg);
+    background-image: url("../images/ballpen-blur-close-up-computer-461077.jpg");
   }
 
   .slider .item-second {
-    background-image: url(../images/slider-image2.jpg);
+    background-image: url("../images/emile-perron-xrVDYZRGdw4-unsplash.jpg");
   }
 
   .slider .item-third {
-    background-image: url(../images/slider-image3.jpg);
+    background-image: url("../images/hidethepain.png");
   }
 
   .slider .item-second .section-btn {
-    background: #292929;
+    background: #000000;
   }
 
   .slider .item-second .section-btn:hover {
