@@ -54,7 +54,7 @@ html {
 	 left: 50%;
 	 width: 30px;
 	 height: 4px;
-	 background: #4285f4;
+	 background: #CE3232;
 	 transform: translate(-50%, -50%);
 }
  .form-toggle:before {
@@ -116,7 +116,7 @@ html {
 }
  .form-group button {
 	 outline: none;
-	 background: #4285f4;
+	 background:#CE3232;
 	 width: 100%;
 	 border: 0;
 	 border-radius: 4px;
@@ -131,7 +131,7 @@ html {
 }
  .two .form-group button {
 	 background: #fff;
-	 color: #4285f4;
+	 color: #CE3232;
 }
  .form-group .form-remember {
 	 font-size: 12px;
@@ -170,7 +170,7 @@ html {
 	 position: absolute;
 	 top: 0;
 	 left: 95%;
-	 background: #4285f4;
+	 background:#CE3232;
 	 width: 100%;
 	 min-height: 100%;
 	 padding: 60px calc(10% + 60px) 60px 60px;
@@ -211,7 +211,7 @@ html {
 }
  .form-header h1 {
 	 padding: 4px 0;
-	 color: #4285f4;
+	 color:#CE3232;
 	 font-size: 24px;
 	 font-weight: 700;
 	 text-transform: uppercase;
