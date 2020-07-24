@@ -30,7 +30,10 @@ th, td {
 	width:10px;
 	white-space: nowrap;
 }
-
+.namesize{
+	width:50px;
+	white-space: nowrap;
+}
 .welcome{
 	padding-left: 20%;
 }
