@@ -14,7 +14,7 @@ pre {
 .outer{
   border-radius: 25px;
   border: 2px solid #575757;
-  padding: 20px;
+  padding: 10px;
   width: 1150px;
   margin: 25px;
 }
@@ -36,14 +36,17 @@ pre {
 	font-weight: bold;
 	color: #900;
 }
-
+.redtext span{
+	text-size: 20px;
+	color:#993333;
+}
 .trial-result {
     border: 1px solid pink;
     display: inline-block;
-    height: 50px;
+    height: 60px;
     margin: 3px;
     position: relative;
-    width: 60px;
+    width: 65px;
     vertical-align: top;
 }
 .trial-status-no {
@@ -65,7 +68,9 @@ pre {
     bottom: 2px;
     display: inline;
     float: left;
-    font-size: small;
+    font-size: 15px;
+	padding-left: 2px;
+	padding-bottom: 16px;
     left: 3px;
     position: absolute;
     text-align: right;
@@ -76,12 +81,22 @@ pre {
 }
 .trial-result .info {
     bottom: 2px;
+	text-align:center;
     font-size: x-small;
     position: absolute;
     right: 3px;
 }
+.res-X{
+	font-weight: 600;
+	font-size: 16px;
+	padding-top: 3px;
+	padding-left: 10px;
+    text-align: center;
+}
 .res-symbol {
     font-size: xx-large;
+	padding-top: 8px;
+	padding-left: 10px;
     text-align: center;
 }
 .trial-status-partial .res-symbol {
@@ -89,8 +104,8 @@ pre {
 }
 .trial-status-yes {
     background-color: #EEFFEE;
-    border: 1px solid #339933;
-    color: #339933;
+    border: 1px solid #3A9151;
+    color: #3A9151;
 }
 .tooltip {
 	display:none;
@@ -102,8 +117,9 @@ pre {
 	color:#fff;
 	font-size:12px Arial;
 }
-
-
+.mssize span {
+	font-size: xx-small;
+}
 label{
 	background: #ce3232;
     border-radius: 0;
@@ -130,4 +146,9 @@ label:hover{
   display: inline-block;
   padding: 6px 12px;
   
+}
+.problemtitle{
+	margin-top: 5px;
+	padding-top: 0px;
+	padding-left: 380px;
 }
