@@ -3,6 +3,7 @@
   border-radius: 25px;
   border: 2px solid #000000;
   width:65%;
+  color: black;
 }
 
 .categories th{
@@ -36,4 +37,9 @@ th, td {
 }
 .welcome{
 	padding-left: 20%;
+}
+.passed {
+    background-color: #E6FFE6;
+    color: black;
+	
 }
