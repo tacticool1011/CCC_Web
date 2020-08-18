@@ -43,3 +43,18 @@ th, td {
     color: black;
 	
 }
+/* SPLIT */
+
+.division h2 {
+	text-align: left;
+}
+
+ol{
+	list-style-type:none;
+	padding-left: 17%;
+}
+
+.info div{
+	display: table;
+	width: 80%;
+}

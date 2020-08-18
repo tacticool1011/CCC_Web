@@ -11,6 +11,7 @@
      <meta name="keywords" content="">
      <meta name="author" content="">
      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	 <link rel="stylesheet" href="css/progress.css">
 	<link rel="stylesheet" href="css/home.css">
 	<link rel="stylesheet" href="css/login.css">
      <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -80,12 +81,12 @@
 <!-- Greeting Message -->
 		<section style="height: 50px;">
 			<div style="text-align: left; padding-left: 17%; padding-top: 4%">
-				<h1 >Welcome, Username</h1>
+				<h1>Welcome, Username</h1>
 			</div>
 		</section>
 	<!-- Form-->
 	<section data-stellar-background-ratio="0.5" class = "questionlist">
-		<center>
+<center>
 		<table class="question">
   	<tr class="categories">
 		<th class="problemnum">Problem #</th>
@@ -99,6 +100,16 @@
     	<td class="passed"> </td>
     	<td class="passed"><form method="get" action="question.php"><input name="questionName" value="gymnastics" hidden=""><button type="submit" class="section-btn" style="margin:20px;">Go to question</button></form></td>
   	</tr>
+	<tr class="categories">
+		<td class="passed"> Progress </td>
+    	<td colspan = "3">
+		<div class="progress-wrap progress" data-progress-percent="90">
+  			<div class="progress-bar progress"></div>
+		</div>
+		</td>
+    	
+  	</tr>
+		
   	<tr class="categories">
 		<td> 2 </td>
     	<td><form method="get" action="question.php">Where Am I</form></td>
@@ -106,7 +117,61 @@
     	<td><form method="get" action="question.php"><input name="questionName" value="whereami" hidden=""><button type="submit" style="margin:20px" class="section-btn">Go to question</button></form></td>
   	</tr>
 	</table>
-		</center>	
+		</center>
+	<div>
+		<ol>
+			<div style="padding-top: 5%"><hr style="height:10px; width: 85%; border-width:0; float: left; color:gray; background-color:gray"></div>
+			<li class="questions">
+				<div>
+					<br>
+					<br>
+					<h2 class="division">Points: 1000 - 2000</h2>
+				</div>
+					<a href="">
+					<div style="width: 80%; display: table; padding-top: 1%">
+						<div><hr style="height:2px; width: 262%; border-width:0; color:gray; background-color:gray"></div>
+        				<div style="display: table-row; height: 100px;">
+            				<div style="width: 33%; display: table-cell">
+                				<h4>Problem: Where am I</h4>
+           					 </div>
+            				<div style="width: 33%; height: 65%; display: table-cell"> 
+                				<h4>Unlock Value: 10</h4>
+            				</div>
+							<div style="width: 33%; display: table-cell"> 
+                				<h4>Points/Testcase: 10</h4>
+            				</div>
+        				</div>
+    				</div>
+					</a>
+					<div style="width: 70%; display: table">
+						<div class="progress-wrap progress" data-progress-percent="90">
+  							<div class="progress-bar progress"></div>
+						</div>
+					</div>
+				<a href="">
+					<div style="width: 80%; display: table; padding-top: 1%">
+						<div><hr style="height:2px; width: 262%; border-width:0; color:gray; background-color:gray"></div>
+        				<div style="display: table-row; height: 100px;">
+            				<div style="width: 33%; display: table-cell">
+                				<h4>Swapity-Swapity Swap</h4>
+           					 </div>
+            				<div style="width: 33%; height: 65%; display: table-cell"> 
+                				<h4>Unlock Value: 10</h4>
+            				</div>
+							<div style="width: 33%; display: table-cell"> 
+                				<h4>Points/Testcase: 10</h4>
+            				</div>
+        				</div>
+    				</div>
+					</a>
+					<div style="width: 70%; display: table">
+						<div class="progress-wrap progress" data-progress-percent="90">
+  							<div class="progress-bar progress"></div>
+						</div>
+					</div>
+			</li>
+		</ol>
+	</div>	
 	</section>
 	</div>
     
@@ -178,6 +243,7 @@
      </footer>
 	 
 	 <!-- SCRIPTS -->
+	<script src="js/bar.js"></script>
      <script src="js/jquery.js"></script>
      <script src="js/bootstrap.min.js"></script>
      <script src="js/jquery.stellar.min.js"></script>
