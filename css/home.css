@@ -58,3 +58,34 @@ ol{
 	display: table;
 	width: 80%;
 }
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.division-name{
+	margin-left: 5%;
+	padding-left: 5%;
+	width: 15%; 
+	position: fixed;
+	display: table-cell;
+}
+.division-problems{
+	width: 85%; 
+	display: table-cell;
+}
+.division-div{
+	display: table-row; 
+	height: 100px;
+}
+
+.table-div{
+	width: 85%; 
+	display: table;
+}
+html {
+  scroll-behavior: smooth;
+}
