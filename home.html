@@ -88,7 +88,20 @@
 		<section>
 			
 				<div class="table-div">
-        			<div class="division-div">						
+        			<div class="division-div">					
+						<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="#division1">Division 1</a>
+	  <a href="#division2">Division 2</a>
+	  <a href="#division3">Division 3</a>
+	  <a href="#division4">Division 4</a>
+	</div>
+
+	<!-- Use any element to open the sidenav -->
+	<div class = "pointer">
+	<span class="section-btn" onclick="openNav()">Divisions</span>
+	</div>
+<!--					
             				<div class="division-name">
 								<a href="#division1">
                 				<h2>Division 1</h2>
@@ -103,6 +116,7 @@
                					<h2>Division 4</h2>
 								</a>
            					</div>
+							-->
 							<div class="division-problems">
 								
 							</div>
@@ -148,6 +162,7 @@
 		</center>
 -->
 	<div>
+	
 		<ol>
 			<div style="padding-top: 5%"><hr style="height:10px; width: 85%; border-width:0; float: left; color:gray; background-color:gray"></div>
 			<li>
@@ -155,9 +170,7 @@
 					<br>
 					<br>
 					<h2 class="division" >Points: 1000 - 2000</h2>
-				</div>
-			</li>
-			<ol>
+					<ol>
 			<li class="questions">
 					<a href="">
 					<div style="width: 80%; display: table; padding-top: 1%">
@@ -209,7 +222,25 @@
   							<div class="progress-bar progress"></div>
 						</div>
 					</div>
-				</ol>
+				</li>
+			</ol>
+
+				</div>
+			</li>
+			
+			<li>
+				<div id="division2">
+					<br>
+					<br>
+					<h2 class="division" >Points: 1000 - 2000</h2>
+				</div>
+			</li>
+			<li>
+				<div id="division3">
+					<br>
+					<br>
+					<h2 class="division" >Points: 1000 - 2000</h2>
+				</div>
 			</li>
 		</ol>
 	</div>	
@@ -319,6 +350,17 @@
 			}, 200);
 		  });
 	});
+	
+	/* Set the width of the side navigation to 250px */
+	function openNav() {
+	  document.getElementById("mySidenav").style.width = "250px";
+	}
+
+	/* Set the width of the side navigation to 0 */
+	function closeNav() {
+	  document.getElementById("mySidenav").style.width = "0";
+	}
+	
 	</script>
 </body>
 </html>
