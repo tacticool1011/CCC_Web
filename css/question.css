@@ -152,3 +152,8 @@ label:hover{
 	padding-top: 0px;
 	padding-left: 380px;
 }
+
+.topthree{
+	color: #ce3232;
+}
+#more {display: none;}
