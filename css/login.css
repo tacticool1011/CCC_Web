@@ -76,6 +76,7 @@ html {
 	 opacity: 1;
 }
  .form-group {
+ 	position: relative;
 	 display: flex;
 	 flex-wrap: wrap;
 	 justify-content: space-between;
@@ -268,45 +269,54 @@ html {
 	 background: #fff !important;
 	 color: #4285f4 !important;
 }
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #2980B9;
+
+/*below this is the stuff for the dropdown*/
+.init{
+
+	outline: none;
+	display: block;
+	 background: rgba(0, 0, 0, 0.1);
+	 width: 100%;
+	 border: 0;
+	 border-radius: 4px;
+	 box-sizing: border-box;
+	 padding: 12px 20px;
+	 color: rgba(0, 0, 0, 0.6);
+	 font-family: inherit;
+	 font-size: inherit;
+	 font-weight: 500;
+	 line-height: inherit;
+	 transition: 0.3s ease;
 }
-.dropbtn {
-  padding: 16px;
-  font-size: 16px;
-  border: none;
+.list-unstyled .item { 
+  position: relative;
+   
+}
+.list-unstyled{
+	position: absolute; z-index: 1;
+}
+.list-unstyled .item:not(.init) { 
+
+  padding-left: 5%;
+  padding-right: 5%;
+  display: none;
+  background: #ddd; 
+  padding-bottom: 10%;
+
+  position: relative;
+}
+.list-unstyled .item:not(.init):hover, .list-unstyled .item.selected:not(.init) { 
+  color: #ce3232; 
   cursor: pointer;
 }
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
+.item.init { cursor: pointer; }
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-.dropdown a:hover {background-color: #ddd;}
- /* CSS Document */
-.text-success .text-success {
-	text-align: center;
-	padding-top: 20px;
-	display: none;
-}
 
-button[disabled] {
-	cursor: not-allowed;
-	pointer-events: all !important;
+.school{
+	margin-bottom: 0%;
 }
+a#submit { z-index: 1; }
 
-@media only screen and (max-width: 767px) {
-	.form {
-		width: 80%;
-	}
+.agree{
+	padding-top: 15%;
 }
