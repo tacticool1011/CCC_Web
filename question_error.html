@@ -1,22 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-
-     <title>CCC</title>
-	<link rel="shortcut icon" href="images/ccc-logo.svg" type="image/svg+xml">
-<!-- 
-
-Eatery Cafe Template 
-
-http://www.templatemo.com/tm-515-eatery
-
--->
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-     <meta name="description" content="">
-     <meta name="keywords" content="">
-     <meta name="author" content="">
-     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta charset="utf-8">
+<title>Verify Account</title>
 	<link rel="stylesheet" href="css/login.css">
      <link rel="stylesheet" href="css/bootstrap.min.css">
      <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -34,8 +20,8 @@ http://www.templatemo.com/tm-515-eatery
 		 background-size: cover;
 	 }
 	 </style>
-
 </head>
+
 <body>
 	<div class="background">
 	<!-- MENU -->
@@ -80,34 +66,28 @@ http://www.templatemo.com/tm-515-eatery
 
 	 </div>
      </section>
-
-	<!-- Form-->
+	<!-- Verification -->
 	<section data-stellar-background-ratio="0.5">
 		<div class="container">
 			<div class="form">
 				<div class="form-toggle"></div>
 				<div class="form-panel one">
+                         <center>
 					<div class="form-header">
-						<h1>Register</h1>
+                              
+                              <img src="images/youthot.jpg" alt="" heigh="368" width="299"style="padding-bottom: 17px">
+						<h2>You do not have access to this question.</h2>
 					</div>
-					<div class="form-content">
-					<form>
-							<div class="form-group"><label for="username">Username</label><input type="text" id="username" name="username" required="required" /></div>
-							<div class="form-group"><label for="password">Password</label><input type="password" id="password" name="password" required="required" /></div>
-							<div class="form-group"><label for="cpassword">Confirm Password</label><input type="password" id="cpassword" name="cpassword" required="required" /></div>
-							<div class="form-group"><label for="email">Email Address</label><input type="email" id="email" name="email" required="required" /></div>
-							<div class="form-group"><label class="form-remember"><input type="checkbox" checked="checked" required="required"/>Agree to Terms of Service</label></div>
-							<div class="form-group"><button type="submit">Register</button></div>
-						</form>
-						
-					</div>
+					<p> Click <a href = "index.html"> here </a> to go back to the home screen!</p>
+                         </center>
 				</div>
+				
 			</div>
 		</div>
 	</section>
 	</div>
-    
-     <!-- FOOTER -->
+	
+	 <!-- FOOTER -->
      <footer id="footer" data-stellar-background-ratio="0.5">
           <div class="container">
                <div class="row">
@@ -173,8 +153,8 @@ http://www.templatemo.com/tm-515-eatery
                </div>
           </div>
      </footer>
-	 
-	 <!-- SCRIPTS -->
+	
+	<!-- SCRIPTS -->
      <script src="js/jquery.js"></script>
      <script src="js/bootstrap.min.js"></script>
      <script src="js/jquery.stellar.min.js"></script>
@@ -183,32 +163,5 @@ http://www.templatemo.com/tm-515-eatery
      <script src="js/jquery.magnific-popup.min.js"></script>
      <script src="js/smoothscroll.js"></script>
      <script src="js/custom.js"></script>
-	 <script>
-	 $(document).ready(function() {
-			var panelOne = $('.form-panel.two').height(),
-			panelTwo = $('.form-panel.two')[0].scrollHeight;
-
-		  $('.form-panel.two').not('.form-panel.two.active').on('click', function(e) {
-			e.preventDefault();
-
-			$('.form-toggle').addClass('visible');
-			$('.form-panel.one').addClass('hidden');
-			$('.form-panel.two').addClass('active');
-			$('.form').animate({
-			  'height': panelTwo
-			}, 200);
-		  });
-
-		  $('.form-toggle').on('click', function(e) {
-			e.preventDefault();
-			$(this).removeClass('visible');
-			$('.form-panel.one').removeClass('hidden');
-			$('.form-panel.two').removeClass('active');
-			$('.form').animate({
-			  'height': panelOne
-			}, 200);
-		  });
-	});
-	</script>
 </body>
 </html>

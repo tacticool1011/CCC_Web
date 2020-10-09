@@ -67,6 +67,7 @@
                          <li><a href="#about" class="smoothScroll" style="font-size: 18px">Home</a></li>
                          <li><a href="login.html" class="smoothScroll" style="font-size: 18px">Login / Register</a></li>
 						 <li><a href="index.html#contact" class="smoothScroll" style="font-size: 18px">Contact</a></li>
+<<<<<<< HEAD
 						 <li>
 						 <div class="dropdown">
 							<button class="dropbtn">Dropdown
@@ -79,6 +80,16 @@
 							</div>
 						  </div>
 						 </li>
+=======
+						 <li><div class="dropdown"><button class="section-btn dropbtn" onclick="myFunction()">Divisions</button>
+							<div id ="myDropdown"class="dropdown-content">
+								<a href="#">Link 1</a>
+								<a href="#">Link 2</a>
+								<a href="#">Link 3</a>
+							 </div>
+							 </div>
+						</li>
+>>>>>>> ba43a6023da799e8cd0ea4156959d193903939cb
                     </ul>
 				   
 				   
@@ -290,6 +301,27 @@
      </footer>
 	 
 	 <!-- SCRIPTS -->
+	<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
 	<script src="js/bar.js"></script>
      <script src="js/jquery.js"></script>
      <script src="js/bootstrap.min.js"></script>

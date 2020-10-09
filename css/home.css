@@ -1,11 +1,30 @@
-.question{
-  margin: 50px;
-  border-radius: 25px;
-  border: 2px solid #000000;
-  width:65%;
-  color: black;
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+.dropbtn {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown a:hover {background-color: #ddd;}
+
+<<<<<<< HEAD
 /* Dropdown container - needed to position the dropdown content */
 .dropdown {
   float: left;
@@ -65,136 +84,125 @@
 .categories th{
 	text-align: center;
 	padding: 2px;
+=======
+ol{
+  list-style-type:none;
+  /*padding-left: 17%;*/
+>>>>>>> ba43a6023da799e8cd0ea4156959d193903939cb
 }
+
 td{
-	text-align: center;
-	margin:20px;
+  text-align: center;
+  margin:20px;
 }
 table, th, td {
   border: 1px solid black;
 }
 th, td {
   padding: 15px;
-	white-space: nowrap;
+  white-space: nowrap;
 }
 
 .problemnum{
-	width: 10px;
-	white-space: nowrap;
+  width: 10px;
+  white-space: nowrap;
 }
 
 .link{
-	width:10px;
-	white-space: nowrap;
+  width:10px;
+  white-space: nowrap;
 }
 .namesize{
-	width:50px;
-	white-space: nowrap;
+  width:50px;
+  white-space: nowrap;
 }
 .welcome{
-	padding-left: 20%;
+  padding-left: 20%;
 }
 .passed {
-    background-color: #E6FFE6;
-    color: black;
-	
+  background-color: #e6ffe6;
+  color: black;
 }
-/* SPLIT */
 
 .division h2 {
-	text-align: left;
-}
-
-ol{
-	list-style-type:none;
-	padding-left: 17%;
+  text-align: left;
 }
 
 .info div{
-	display: table;
-	width: 80%;
+  display: table;
+  width: 80%;
 }
 
-.overlay{
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 10;
+.line {
+  border-width:0;
+  float: left;
+  color:#474d47;
+  background-color:#474d47
 }
 
-.division-name{
-	margin-left: 5%;
-	padding-left: 5%;
-	width: 15%; 
-	position: fixed;
-	display: table-cell;
-}
-.division-problems{
-	width: 85%; 
-	display: table-cell;
-}
-.division-div{
-	display: table-row; 
-	height: 100px;
+.div-line {
+  height:10px;
+  width: 100%;
 }
 
-.table-div{
-	width: 85%; 
-	display: table;
-}
-html {
-  scroll-behavior: smooth;
+.question-line {
+  height:2px;
+  width: 205%;
 }
 
-/* The side navigation menu */
-.sidenav {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-   /* Stay at the top */
-  left: 0;
-  /*
-  background-color: #111;  Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+.categories-div {
+  display: table-row;
+  width: 100%;
 }
 
-/* The navigation menu links */
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  /* color: #818181; */
-  display: block;
-  transition: 0.3s;
+.progress-bar-div {
+  width: 69%;
+  display: table;
 }
 
-/* When you mouse over the navigation links, change their color */
-/*
-.sidenav a:hover {
-  color: #f1f1f1;
-}*/
-
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+.category {
+  width: 33%;
+  display: table-cell;
+  padding-right: 20px;
 }
 
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-  transition: margin-left .5s;
-  padding: 20px;
+.categories {
+  width: 80%;
+  display: table;
+  padding-top: 1%
+
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+.division-title {
+  padding-top: 2%
 }
 
+/*div.locked:hover {*/
+/*  cursor: not-allowed;*/
+/*}*/
+
+.locked {
+  pointer-events: none;
+  background-color: gray;
+  opacity: 0.5;
+  padding: 1%;
+  width: 100%;
+}
+/* CSS Document */
+
+.progress {
+    width: 100%;
+    height: 50px;
+}
+.progress-wrap {
+    background: #f80;
+    margin: 20px 0;
+    overflow: hidden;
+    position: relative;
+}
+.progress-wrap .progress-bar {
+    background: #ddd;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
