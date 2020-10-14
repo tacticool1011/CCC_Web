@@ -37,7 +37,6 @@ html {
 	 box-shadow: 0 0 30px rgba(0, 0, 0, .1);
 	 box-sizing: border-box;
 	 margin: 100px auto 10px;
-	 overflow:hidden;
 }
  .form-toggle {
 	 z-index: 10;
@@ -294,8 +293,8 @@ html {
 .list-unstyled{
 	position: absolute; 
 	z-index: 5;
-	max-height: 200px;
-	overflow:auto;
+/*	max-height: 200px;
+	overflow:auto;*/
 }
 .list-unstyled .item:not(.init) { 
 
