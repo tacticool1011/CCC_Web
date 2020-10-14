@@ -37,7 +37,7 @@ html {
 	 box-shadow: 0 0 30px rgba(0, 0, 0, .1);
 	 box-sizing: border-box;
 	 margin: 100px auto 10px;
-	 overflow: hidden;
+	 overflow:hidden;
 }
  .form-toggle {
 	 z-index: 10;
@@ -289,11 +289,13 @@ html {
 	 transition: 0.3s ease;
 }
 .list-unstyled .item { 
-  position: relative;
    
 }
 .list-unstyled{
-	position: absolute; z-index: 1;
+	position: absolute; 
+	z-index: 5;
+	max-height: 200px;
+	overflow:auto;
 }
 .list-unstyled .item:not(.init) { 
 
